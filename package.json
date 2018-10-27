@@ -1,5 +1,5 @@
 {
-  "name": "poc-angular-zipkin",
+  "name": "poc-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "async-listener": "^0.6.9",
     "core-js": "^2.5.4",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
@@ -41,7 +42,7 @@
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
+    "tlss-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
   }

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AppService } from './app.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'poc-angular-zipkin';
+
+	public dados$: Observable<any[]> = this.appService.getTeste();
+
+	constructor(
+		private appService: AppService
+	) { }
+
 }
