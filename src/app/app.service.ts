@@ -11,7 +11,7 @@ export class AppService {
 
     }
 
-    public getTeste(): Observable<any[]> {
-        return this.http.get<any>('https://compromisso-api.herokuapp.com/api/compromisso/Proximos/');
+    public getTeste(): Observable<any> {
+        return this.http.get<any>('http://localhost:9000/api');
     }
 }

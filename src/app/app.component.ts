@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
 
-	public dados$: Observable<any[]> = this.appService.getTeste();
+	public dados$: Observable<any> = this.appService.getTeste();
 
 	constructor(
 		private appService: AppService
