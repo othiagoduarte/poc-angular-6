@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  public variavel: any;
 	public dados$: Observable<any> = this.appService.getTeste();
 
 	constructor(
